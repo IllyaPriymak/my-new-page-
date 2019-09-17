@@ -13,9 +13,15 @@ body{
 .link {
   color: white;
   text-decoration: none;
-  margin-left: 25px;
   margin-right: 25px;
   font-style: normal;
+}
+
+.link1{
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  font-style: normal
 }
 
 .container2 {
@@ -79,7 +85,7 @@ h1 {
 
 .icon{
   display: flex;
-
+  text-align: center;
 }
 
 h6{
@@ -112,21 +118,21 @@ h3{
   justify-content: center;
 }
 
-.benefits{
+.blocks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
 }
 
-.headline {
-  color: black;
+.box {
   display: flex;
-  justify-content: space-between;
-  width: ;
-}
-
-.paragraf2 {
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 25px;
+  align-items: center;
+  text-align: center;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .container5{
@@ -142,4 +148,14 @@ h3{
   text-decoration: none;
   margin-left: 50px;
   margin-right: 25px;
+}
+
+.wordother{
+  color: #666EE8;
+  text-decoration: none;
+}
+
+.watchesblock {
+  display: flex;
+  justify-content: center;
 }
